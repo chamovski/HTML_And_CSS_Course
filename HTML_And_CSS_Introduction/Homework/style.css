@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 60px;
+    background-color: #404040;
+    border-bottom: 5px solid #ff3300;
+    transition: all 0.3s ease;
+  }
+  .navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 70px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover {
+    color: #ff3300;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu .active a {
+    color: #ff3300;
+
+  }
+ .showcase{
+     display: block;
+     background: url(/img/showcase.jpg) no-repeat center;
+     background-size: cover;
+     height: 50vh;
+     color: #fff;
+     text-align: center;
+ }
+ .showcase h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 60px;
+ }
+.showcase p{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   padding-top: 50px;
+   font-size: 18px;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.newslettler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 60px;
+    background-color: #404040;
+}
+.newslettler p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 100px;
+}
+.newslettler input{
+    height: 32px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-left: 500px;
+}
+.newslettler a{
+    background-color: #ff3300;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 10px;
+    margin-right: 160px;
+}
+.boxses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .boxses .card {
+    width: calc(33% - 20px);
+    text-align: center;
+    padding: 20px 25px;
+  }
+
+  .boxses .card img {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+  }
+
+  .boxses .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    padding-bottom: 20px;
+  }
+  .boxses .card p{
+      padding-left: 20px;
+  }
+.main{
+   display: flex;
+
+}
+.main .left{
+    flex: 70%;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+.main .right{
+    flex: 30%;
+    padding-right: 100px;
+
+}
+.main .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.main p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.main .second {
+    color: #fff;
+    background-color: #404040;
+    padding: 20px 20px;
+}
+.main .right .third{
+    color: #fff;
+    background-color: #404040;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.main .right .third span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.services{
+    display: flex;
+ 
+ }
+ .services .left{
+     flex: 70%;
+     padding-left: 200px;
+     padding-right: 100px;
+     padding-bottom: 60px;
+ }
+ .services .right{
+     flex: 30%;
+     padding-right: 100px;
+ }
+ .services .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.services .left .card1{
+    background-color: #e6e6e6;
+    border: 2px solid #cccccc;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+.services .left .card1 h3{
+    padding-bottom: 20px;
+}
+.services .left .card1 .text1{
+    padding-bottom: 20px;
+}
+.services .right .quote{
+    background-color: #404040;
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+}
+.services .right .quote p{
+    color: #fff;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.services .right .quote h2{
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+}
+.services .right .quote input,
+.services .right .quote textarea{
+    border: 1px solid lightgrey;
+    outline: none;
+    padding: 20px, 20px;
+    padding-right: 130px;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.services .right .quote button{
+    margin-left: 25px;
+    background-color: #ff3300;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ff3300;
+    padding: 10px 20px;
+
+}
+footer{
+    width: 100%;
+    padding: 30px 70px;
+    text-align: center;
+    background-color: #ff3300;
+    color: white;
+}
