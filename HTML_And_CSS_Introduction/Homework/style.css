@@ -44,7 +44,7 @@
   }
  .showcase{
      display: block;
-     background: url(/img/showcase.jpg) no-repeat center;
+     background: url(./img/showcase.jpg) no-repeat center;
      background-size: cover;
      height: 50vh;
      color: #fff;
