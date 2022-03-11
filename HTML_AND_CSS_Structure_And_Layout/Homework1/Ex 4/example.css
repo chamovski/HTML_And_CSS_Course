@@ -1,0 +1,36 @@
+header{
+    background-color: #f2a062;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+#logo{
+    background-color: #eb6481;
+    float: left;
+    padding: 15px;
+}
+.nav p{
+    background-color: #d76a50;
+    float: right;
+    padding: 15px;
+}
+aside{
+    background-color: #f6bd62;
+    float: left;
+    width: 20.9%;
+    height: 400px;
+    padding: 15px;
+}
+main{
+    background-color: #8eabc0;
+    float: left;
+    width: 75%;
+    height: 400px;
+    padding: 15px;
+}
+footer{
+    background-color: #b7ce3f;
+    padding: 15px;
+    clear: both;
+}

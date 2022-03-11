@@ -1,0 +1,34 @@
+header{
+    background-color: #f2a062;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+main{
+    background-color: #8eabc0;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+div{
+    background-color: #ab476f;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 100px 0;
+}
+.selected {
+    background-color: #823267;
+}
+footer{
+    background-color: #b7ce3f;
+    padding: 15px;
+    clear: both;
+}
