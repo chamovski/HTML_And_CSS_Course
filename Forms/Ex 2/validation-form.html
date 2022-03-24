@@ -56,6 +56,14 @@
             position: absolute;
             z-index: -1;
         }
+        input:valid,
+        textarea:valid{
+            border-bottom: 1px solid green;
+        }
+        input:invalid,
+        textarea:invalid{
+            border-bottom: 1px solid red;
+        }
     </style>
 </head>
 <body>
@@ -70,6 +78,10 @@
                 <input type="text" name="lastname" id="last_name" placeholder="Last name" required/>
             </div>
             <div>
+                <label for="email">Email:</label><br />
+                <input type="email" name="email" id="email" placeholder="Your email" required/>
+            </div>
+            <div>
                 <label for="title">Country:</label><br />
                 <div class="select-wrapper">
                 <select id="title">
@@ -82,7 +94,7 @@
             </div>
             <div>
                 <label for="message">Message:</label><br />
-                <textarea name="message" id="message" cols="20" rows="5" placeholder="Hello there..."></textarea>
+                <textarea name="message" id="message" cols="20" rows="5" placeholder="Hello there..." required></textarea>
             </div>
             <button type="submit">Submit</button>
         </fieldset>
