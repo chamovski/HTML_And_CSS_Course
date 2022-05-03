@@ -1,0 +1,23 @@
+.features{
+    margin-top: 50px;
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.tittle{
+    margin-top: 40px;
+}
+.testimonials{
+    margin-top: 150px;
+}
+.blog{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+ 
